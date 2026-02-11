@@ -1,0 +1,13 @@
+.social {
+  display: flex;
+  gap: 15px;
+}
+
+.socialLink {
+  color: #24242B;
+  transition: color 0.3s;
+}
+
+.socialLink:hover {
+  color: #4F46E5;
+}

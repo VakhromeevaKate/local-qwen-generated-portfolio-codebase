@@ -1,0 +1,8 @@
+.item {
+  color: #24242B;
+  transition: color 0.3s;
+}
+
+.item:hover {
+  color: #4F46E5;
+}

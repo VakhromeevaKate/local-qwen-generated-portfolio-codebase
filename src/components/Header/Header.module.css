@@ -1,0 +1,50 @@
+.header {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.headerContainer {
+  max-width: 1200px; /* или другое значение в зависимости от вашей системы */
+  margin: 0 auto;
+  padding: 16px; /* px-4 = 16px */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #24242B;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+}
+
+.social {
+  display: flex;
+  gap: 15px;
+}
+
+.socialLink {
+  color: #24242B;
+  transition: color 0.3s;
+}
+
+.socialLink:hover {
+  color: #4F46E5;
+}
